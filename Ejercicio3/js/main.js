@@ -27,9 +27,9 @@ function arrayCase2(arregloCase2) {
     let numeroRepetido2 = 0;
     let target2 = arregloCase2[3];
     for (let index = 0; index < arregloCase2.length; index++) {
-        if (arregloCase2[target2] == arregloCase2[target2]) {
-            numeroRepetido2++;
-            repetido2 = arregloCase2[index];
+        if (arregloCase2[index] == target2) {
+            repetido2++;
+            numeroRepetido2 = arregloCase2[index];
         }
     }
     return numeroRepetido2;
