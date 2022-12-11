@@ -1,4 +1,4 @@
-let btnCal = document.getElementById("btnNum");
+let btnNum = document.getElementById("btnNum");
 let mayor = 0;
 function mayorDeTres(){
     //  let n1 = Math.ceil(Math.random() * 100);
